@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Coin from './Coin';
 import './App.css'
+import styled from 'styled-components';
 function App() {
  
   const [coins, setCoins] = useState([])
@@ -40,7 +41,6 @@ function App() {
       </div>
       {filteredCoins.map(coin => {
         return (
-        
           <Coin 
             key={coin.id}
             name={coin.name}
