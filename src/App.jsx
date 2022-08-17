@@ -2,8 +2,14 @@ import './App.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Coin from './Coin';
-
+import { useMediaQuery } from 'react-responsive'
+import BigScreen from './Components/big-screen/Big-screen'
+import Desktop from './Components/desktop/Desktop'
+import Laptop from './Components/laptop/laptop'
+import Mobile from './Components/mobile/Mobile'
+import TabletMobile from './Components/tablet-mobile/Tablet-mobile'
 function App() {
+ 
   const [coins, setCoins] = useState([])
   const [search, setSearch] = useState('')
   useEffect(() => {
@@ -20,6 +26,7 @@ function App() {
     coin.name.toLowerCase().includes(search.toLowerCase())
   )
   return (
+
     <div className="coin-app">
       <div className="coin-search">
         <h1 className="coin-text">Search a currency</h1>
@@ -53,6 +60,8 @@ function App() {
       })}
     </div>
   );
+ 
 }
+
 
 export default App;
