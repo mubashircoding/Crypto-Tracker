@@ -1,12 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/*@media screen and (max-width: 320px) {
+  *{
+  position:relative;
+    padding: 0px;
+    margin: 0px;
+   border-collapse: collapse;
+    scroll-behavior: smooth;
+  border: 320px solid;
+    font-size: small;
+    align-content: center;
+    max-height: auto;
+    max-width: 320px;
+   
+    
+    
+  }
 
+}*/
 
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-  background-color: #1a1a1c;
+  background-color: #7918f2;
   color: #fff;
 }
 .coin-app{
