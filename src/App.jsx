@@ -2,12 +2,7 @@ import './App.css';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import Coin from './Coin';
-import { useMediaQuery } from 'react-responsive'
-import BigScreen from './Components/big-screen/Big-screen'
-import Desktop from './Components/desktop/Desktop'
-import Laptop from './Components/laptop/laptop'
-import Mobile from './Components/mobile/Mobile'
-import TabletMobile from './Components/tablet-mobile/Tablet-mobile'
+import './App.css'
 function App() {
  
   const [coins, setCoins] = useState([])
