@@ -1,22 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*@media screen and (max-width: 320px) {
-  *{
-  position:relative;
-    padding: 0px;
-    margin: 0px;
-   border-collapse: collapse;
-    scroll-behavior: smooth;
-  border: 320px solid;
-    font-size: small;
-    align-content: center;
-    max-height: auto;
-    max-width: 320px;
-   
-    
-    
+  .Sy{
+    position: relative;
+    left: 80px;
+  }
+  .Pr{
+    left: -13px;
+  }
+  .Vo{
+    left: -68px;
+  }
+  .Pc{
+    left: 250px;
+  }
+  .Ma{
+    left: 88px;
   }
 
-}*/
+}
+*/
 
 *{
   box-sizing: border-box;
